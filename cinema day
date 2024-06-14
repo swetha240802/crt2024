@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main(){
+int d,m,y,n;
+    scanf("%d%d%d%d",&d,&m,&y,&n);
+    int sum=(d+m+y)%12;
+    if(sum==0)
+    {
+        printf("Cinema Day");
+    }
+    else
+    {
+        printf("Not a Cinema Day");
+    }
+return 0;
+}
