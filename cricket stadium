@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int l,b;
+        Scanner s=new Scanner(System.in);
+        l=s.nextInt();
+        b=s.nextInt();
+        int t=2*(l+b);
+        System.out.println(t);
+        int r=l*b;
+        System.out.println(r);
+    }
+}   
+    
